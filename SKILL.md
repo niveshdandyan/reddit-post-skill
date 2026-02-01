@@ -76,48 +76,22 @@ Write freely. No structure constraints. No editing. No polish.
 
 ## PHASE 4: DETECTION SCAN
 
-Run every sentence through these checks:
+Run every sentence through these checks.
 
-### Claude-Specific Vocabulary (Replace or Vary)
+### Claude-Specific Vocabulary
 
-| Claude Says | Humans Say |
-|-------------|------------|
-| genuinely | actually, really, for real, honestly |
-| straightforward | simple, easy, obvious, not that hard |
-| I'd be happy to | [just do it, don't announce] |
-| absolutely | yeah, definitely, for sure, 100% |
-| comprehensive | full, complete, everything, the whole thing |
-| I understand | yeah, I get it, I know |
-| certainly | sure, yeah, of course |
-| regarding | about, on, with |
-| utilize | use |
-| prior to | before |
-| subsequent | after, next |
-| facilitate | help, make easier |
-| implement | do, try, use |
-| leverage | use |
-| optimal | best |
-| significant | big, major, a lot |
-| demonstrate | show |
-| indicate | show, mean, suggest |
-| navigate | deal with, handle, figure out |
-| challenging | hard, tough, rough |
-| journey | [delete entirely] |
-| perspective | view, take, way of seeing it |
-| appreciate | thanks, I get it |
-| assist | help |
-| inquire | ask |
-| commence | start |
-| endeavor | try |
-| furthermore | also, and, plus |
-| however | but |
-| therefore | so |
-| nevertheless | still, but |
-| in terms of | with, for, about |
-| in order to | to |
-| due to the fact that | because |
-| at this point in time | now, right now |
-| the fact that | that |
+**See `references/claude-isms.md` for the complete database (200+ items across 12 categories).**
+
+Quick reference for most common Claude-isms:
+
+| Category | Examples to Avoid | Use Instead |
+|----------|-------------------|-------------|
+| Power words | genuinely, comprehensive, straightforward | actually, really, simple |
+| Formal verbs | utilize, implement, leverage, navigate | use, do, try, deal with |
+| Transitions | however, therefore, furthermore | but, so, also, and |
+| Prepositional | in order to, due to the fact that | to, because |
+| Announcements | I'd be happy to, let me explain | [just do it] |
+| Journey language | on this journey, throughout this process | [delete] |
 
 ### Structural Scan
 
@@ -353,6 +327,7 @@ Optimize for:
 
 ## REFERENCES
 
+- **Claude-ism Database:** See `references/claude-isms.md` for 200+ vocabulary items, phrases, and patterns to avoid
 - **Subreddit Guides:** See `references/subreddits.md` and `references/subreddits-extended.md`
 - **Tech Subreddits:** See `references/subreddit-analysis-claude-agentsofai.md`
 - **Tool Mentions:** See `references/tool-mentions.md` for subtlety levels
