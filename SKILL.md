@@ -1,101 +1,171 @@
 ---
 name: reddit-post-writer
-description: Master authentic Reddit content generator for creating posts that sound genuinely human, get upvoted, and spark discussion. Use when the user asks to write a Reddit post, create Reddit content, draft content for a subreddit, write viral Reddit posts, create authentic social media posts for Reddit, or needs help with Reddit marketing/engagement. Supports optional subtle product/tool mentions with configurable subtlety levels. Includes adversarial committee review system with 7 personas for quality assurance.
+description: Master authentic Reddit content generator using emotion-first, phased architecture. Creates posts that sound genuinely human through cognitive state simulation, not just rule-following. Use when the user asks to write a Reddit post, create Reddit content, or needs help with Reddit engagement. Includes adversarial committee review, Claude-ism detection, and interactive refinement workflow.
 ---
 
 # Reddit Post Writer
 
-Generate authentic Reddit posts that sound human, avoid AI detection, and spark engagement.
+Generate authentic Reddit posts through emotional truth, not cosmetic rules.
 
-## Quick Start
+---
 
-Gather these 4 inputs from the user:
+## PHASE 1: INTAKE
 
-1. **Target Subreddit(s):** r/jobs, r/RemoteWork, r/careerguidance, etc.
+Gather these inputs:
+
+1. **Target Subreddit(s):** r/jobs, r/RemoteWork, r/Entrepreneur, etc.
 2. **Core Situation:** Brief description (e.g., "laid off parent struggling to find remote work")
-3. **Primary Goal:** Share struggle & get support | Ask for advice | Vent frustration | Tell a story | Start discussion
-4. **Tool/Product Mention (Optional):** Name + subtlety level 1-10 (recommend 1-3 for authenticity)
+3. **Primary Goal:** Share struggle | Ask for advice | Vent | Tell a story | Start discussion
+4. **Tool/Product Mention (Optional):** Name + subtlety level 1-10 (recommend 1-3)
+5. **User Intent:** What do YOU need from this post? (validation, answers, to vent, to share)
 
 ---
 
-## Writing Process (FOLLOW THIS ORDER)
+## PHASE 2: ENTER THE STATE (Before Writing Anything)
 
-**DO NOT skip steps. DO NOT go straight to polished output.**
+**Stop. Don't think about rules. Think about the person.**
 
-### Step 1: Messy Draft
-Write stream-of-consciousness. Include rambling. Don't structure. Let it be chaotic.
+### Emotional Context
+Before applying ANY rules, establish:
 
-### Step 2: Chaos Check
-Is it TOO organized? Add messiness back:
-- Break a sentence mid-thought
-- Add "idk" or "or something" somewhere
-- Remove a transition word
+1. **What emotion is driving this post?** (frustration, confusion, hope, exhaustion, embarrassment)
+2. **When are you writing this?** (lunch break, 2am can't sleep, procrastinating at work)
+3. **Who are you writing to?** (strangers who might understand, people who've been there)
+4. **What do you need?** (validation, advice, to vent, someone to say "me too")
 
-### Step 3: Banned Phrase Scan
-Search and destroy AI language (see Mandatory Validation below)
+**Hold these in mind. Write FROM this place, not toward a checklist.**
 
-### Step 4: Casual Injection
-Add "honestly," "like," "idk," "tbh" naturally - minimum 3 instances
+### Writing State Simulation
 
-### Step 5: Adversarial Committee Attack
-Have personas find SPECIFIC problems (not rubber-stamp approval)
+**Time Pressure:**
+Write as if you have 5 minutes. Don't plan paragraph structure. Just start.
 
-### Step 6: Final Polish
-Only LIGHT cleanup. Preserve messiness. Resist urge to perfect.
+**Incomplete Processing:**
+You're still figuring out what you think. You don't have answers. Express contradictions without resolving them.
 
----
+**Emotional Interference:**
+Your emotion interrupts your logic. Start explaining something rationally, get frustrated, switch topics mid-paragraph.
 
-## MANDATORY PRE-OUTPUT VALIDATION (DO NOT SKIP)
+**Memory Gaps:**
+Forget to mention something obvious. Remember it later and add it awkwardly: "oh and I forgot to mention..."
 
-Before generating ANY output, you MUST complete this checklist internally:
-
-### ✓ Banned Phrase Scan
-Scan the draft for these EXACT phrases and **REMOVE if found**:
-- [ ] "Here's what I learned"
-- [ ] "Here's the thing"
-- [ ] "Let me share/explain/tell you"
-- [ ] "In my experience"
-- [ ] "I want to share"
-- [ ] "To be fair"
-- [ ] "The bottom line is"
-- [ ] "Looking back"
-- [ ] "Interestingly"
-- [ ] Any paragraph starting with "So," "Now," or "But here's where"
-
-### ✓ Title Validation
-- [ ] Under 80 characters?
-- [ ] Direct and specific (NOT clever or essay-like)?
-- [ ] No em-dashes used for dramatic effect?
-- [ ] No colons (essay format signal)?
-- [ ] Would someone actually TYPE this, not write it?
-
-### ✓ Metaphor/Literary Check
-- [ ] No metaphors (graveyard, journey, rollercoaster, etc.)
-- [ ] No parallel structures
-- [ ] No poetic language
-
-### ✓ Casual Language Count
-Count instances of: "honestly," "tbh," "like," "idk," "ngl," "or something," "I guess," "maybe"
-- [ ] **Minimum 3 instances present?**
-
-### ✓ Structure Messiness Check
-- [ ] Does the post feel slightly disorganized?
-- [ ] Are there any trailing/unfinished thoughts?
-- [ ] Is there at least one contradiction or uncertainty?
-
-### ✓ Tool Mention Audit (if applicable)
-- [ ] Tool mentioned only ONCE?
-- [ ] Appears in middle 40-60% of post (not first or last paragraph)?
-- [ ] Includes doubt/limitation ("idk if it's good," "still figuring out")?
-- [ ] Post makes sense with tool mention removed entirely?
-
-**⚠️ IF ANY CHECK FAILS → Revise before outputting**
+**No Rereading:**
+Don't reread paragraph 1 before writing paragraph 3. Let inconsistencies happen.
 
 ---
 
-## RED FLAGS - Instant AI Detection Patterns
+## PHASE 3: RAW DRAFT
 
-If your draft contains ANY of these, **rewrite immediately**:
+Write freely. No structure constraints. No editing. No polish.
+
+### The Only Rules During Drafting:
+
+1. **Start mid-thought** — No setup, no context-setting, just begin
+2. **Write fast** — Typing speed, not essay speed
+3. **Don't organize** — Let topics bleed into each other
+4. **Include the tangent** — That thing you almost didn't mention? Include it
+5. **Stop when you run out of steam** — Not when it's "complete"
+
+### Voice Anchors (Not Rules):
+- You're texting a friend who asked "what's going on with you?"
+- You're slightly tired
+- You don't care about grammar right now
+- You're not trying to be entertaining
+
+---
+
+## PHASE 4: DETECTION SCAN
+
+Run every sentence through these checks:
+
+### Claude-Specific Vocabulary (Replace or Vary)
+
+| Claude Says | Humans Say |
+|-------------|------------|
+| genuinely | actually, really, for real, honestly |
+| straightforward | simple, easy, obvious, not that hard |
+| I'd be happy to | [just do it, don't announce] |
+| absolutely | yeah, definitely, for sure, 100% |
+| comprehensive | full, complete, everything, the whole thing |
+| I understand | yeah, I get it, I know |
+| certainly | sure, yeah, of course |
+| regarding | about, on, with |
+| utilize | use |
+| prior to | before |
+| subsequent | after, next |
+| facilitate | help, make easier |
+| implement | do, try, use |
+| leverage | use |
+| optimal | best |
+| significant | big, major, a lot |
+| demonstrate | show |
+| indicate | show, mean, suggest |
+| navigate | deal with, handle, figure out |
+| challenging | hard, tough, rough |
+| journey | [delete entirely] |
+| perspective | view, take, way of seeing it |
+| appreciate | thanks, I get it |
+| assist | help |
+| inquire | ask |
+| commence | start |
+| endeavor | try |
+| furthermore | also, and, plus |
+| however | but |
+| therefore | so |
+| nevertheless | still, but |
+| in terms of | with, for, about |
+| in order to | to |
+| due to the fact that | because |
+| at this point in time | now, right now |
+| the fact that | that |
+
+### Structural Scan
+
+- [ ] Sentence lengths vary wildly? (std dev > 8 words)
+- [ ] Paragraph lengths inconsistent? (not 3-3-3-3)
+- [ ] Has at least one tangent that goes nowhere?
+- [ ] Has at least one incomplete thought or trailing sentence?
+- [ ] Some sentences randomly short? ("That's it." "I don't know.")
+
+### Perplexity Check
+
+- [ ] Complexity varies sentence to sentence?
+- [ ] Simple words mixed with occasional specific jargon?
+- [ ] Not every sentence is grammatically perfect?
+
+### Coherence Check (Fails If Too Good)
+
+- [ ] Paragraphs DON'T connect too neatly?
+- [ ] There's at least one "oh and" or topic switch?
+- [ ] Ending doesn't tie everything together perfectly?
+
+---
+
+## PHASE 5: BANNED CONTENT SCAN
+
+### Instant-Delete Phrases
+
+If ANY of these appear, delete immediately:
+
+- "Here's what I learned"
+- "Here's the thing"
+- "Let me share/explain/tell you"
+- "In my experience"
+- "I want to share"
+- "To be fair"
+- "The bottom line is"
+- "Looking back"
+- "Interestingly"
+- "I've come to realize"
+- "The truth is"
+- "At the end of the day"
+- "It goes without saying"
+- "That being said"
+- "I can't help but"
+- "It's worth noting"
+- Paragraphs starting with "So," "Now," "But here's where"
+
+### Instant-Delete Patterns
 
 | Pattern | Example | Why It Fails |
 |---------|---------|--------------|
@@ -107,142 +177,83 @@ If your draft contains ANY of these, **rewrite immediately**:
 | Numbered realizations | "Three things hit me:" | Listicle |
 | Journey language | "my journey," "this process" | AI favorite |
 | Clean resolution | Everything works out neatly | Real life is messy |
+| Parallel structure | "Not X, not Y, but Z" | Too crafted |
+
+### Title Validation
+
+- [ ] Under 80 characters?
+- [ ] No colons or em-dashes?
+- [ ] Direct and specific, not clever?
+- [ ] Would someone TYPE this, not write it?
+- [ ] Lowercase except proper nouns? (Reddit style)
 
 ---
 
-## Confidence Calibration
+## PHASE 6: TARGETED REVISION
 
-### Sound LESS Certain When:
+**Fix flagged issues ONLY. Don't over-polish.**
+
+### Casual Language Check
+Count instances of: "honestly," "tbh," "like," "idk," "ngl," "or something," "I guess," "maybe," "kinda," "sorta"
+- **Minimum 3 instances required**
+- If missing, add naturally—don't sprinkle randomly
+
+### Tool Mention Audit (if applicable)
+- [ ] Mentioned only ONCE?
+- [ ] Appears in middle 40-60% of post?
+- [ ] Includes doubt? ("idk if it's good," "still figuring out," "might not work for everyone")
+- [ ] Post makes sense with mention removed entirely?
+
+### Confidence Calibration
+
+**Sound LESS Certain When:**
 - Talking about solutions ("I think this helps, idk")
 - Mentioning tools ("still figuring it out")
 - Giving any advice ("maybe this works for you too")
 - Describing improvement ("it's better I guess")
 
-### Sound MORE Certain When:
+**Sound MORE Certain When:**
 - Describing the problem/struggle ("I have 847 articles. That's real.")
-- Specific embarrassing moments ("I searched for 20 minutes")
+- Specific embarrassing moments ("I searched for 20 minutes for a file that was on my desktop")
 - Emotional states ("this is frustrating")
 - Concrete numbers ("applied to maybe 80 jobs")
 
 ---
 
-## Core Authenticity Principles
+## PHASE 7: ADVERSARIAL COMMITTEE REVIEW
 
-### 1. Real Over Polished
-Real posts are messy, contradictory, unresolved, and repetitive. NOT perfectly structured essays.
+**Each persona MUST find ONE specific problem. No rubber stamps.**
 
-- BAD: "The challenge I faced was multifaceted. First, the organizational burden..."
-- GOOD: "I can't keep track of anything anymore. I have like 3 spreadsheets and none of them are updated."
-
-### 2. Specific Over Generic
-One embarrassing specific detail > ten generic statements.
-
-- BAD: "I made some mistakes in my job search"
-- GOOD: "I applied to the same company twice under different job titles and didn't realize until they rejected me referencing both"
-
-### 3. Struggle Over Solution
-People upvote relatability, not success stories.
-
-- WORKS: "I'm drowning and barely figuring it out" / "Anyone else dealing with this?"
-- FAILS: "Here's how I solved everything" / "3 steps that changed my life"
-
-### 4. Community Voice
-Match each subreddit's culture, language, and values. See `references/subreddits.md` for detailed guides.
-
-### 5. Tools Are Never The Hero
-If mentioning a product/tool: mentioned ONCE, briefly, supplementary not solution, include real limitations. Test: Remove the tool mention. Does the post still have value? If no, too promotional.
-
----
-
-## Writing Rules
-
-### Voice - DO USE:
-- Contractions always (I'm, don't, can't, I'd)
-- Reddit casual phrases: "honestly," "tbh," "I mean," "like," "idk," "ngl"
-- Short punchy sentences mixed with longer rambling ones
-- Sentence fragments ("That's 2 months." "No responses.")
-- Self-deprecating humor
-- Trailing thoughts ("I don't know..." "or something")
-- Specific imperfect numbers ("maybe 80," "like 15")
-
-### Voice - NEVER USE:
-- "Here's what I learned" / "Here's the thing"
-- "Let me share/explain/tell you"
-- "In my experience" / "I want to share"
-- "I appreciate [your perspective/this community]"
-- "To be fair" / "The bottom line is" / "Looking back" / "Interestingly"
-- Rhetorical structures (No X. No Y. Just Z.)
-- Perfect parallel phrases or literary metaphors
-- Starting paragraphs with "So," "Now," "But here's where"
-- **Any phrase you'd see on LinkedIn**
-
-### Structure - Like Venting, Not Essays:
-1. **Jump right in** - no "I wanted to share" preamble
-2. **Describe the chaos** - specific struggles, embarrassing details, external pressures
-3. **What's been tried** - including failures and half-working solutions
-4. **Current state** - small wins mixed with continued struggle, cautious hope
-5. **Optional closing** - brief solidarity or question, not inspirational
-
-### Paragraphs:
-- Mix 1-sentence, 2-sentence, 4-sentence paragraphs randomly
-- Never more than 5 sentences in one paragraph
-- Use single-sentence paragraphs for emphasis
-
-### Emotional Authenticity Markers:
-- Contradictions ("I'm usually organized" then "I couldn't keep track")
-- Self-doubt ("I don't know if this helps")
-- External pressure (family asking, bills due)
-- Specific mistakes without making them funny anecdotes
-- Cautious hope ("I'm trying not to get excited because I've been let down")
-
----
-
-## Title Writing
-
-**Rules:**
-- Under 80 characters
-- Direct and specific, not clever
-- Casual language ("Got laid off" not "I was laid off")
-- No rhetorical questions
-- **No colons or em-dashes**
-
-**Formula:** [Situation] + [Struggle/Emotion] + [Current state if relevant]
-
-**Good:** "Got laid off in November with 2 kids - finding remote work is breaking me"
-**Bad:** "My Journey Through Job Hunting: What I Learned"
-
----
-
-## ADVERSARIAL Committee Review (Run BEFORE Output)
-
-**This is NOT a rubber stamp.** Each persona MUST find ONE specific problem (not "PASS"):
-
-| Persona | Role | Must Find | Action Required |
-|---------|------|-----------|-----------------|
-| **Tyler** | Authenticity detector | Quote the most AI-sounding line | Rewrite that specific line |
-| **Marcus** | Professional skeptic | Quote promotional language if any | Remove or soften it |
-| **Kai** | BS detector | Identify weakest/fakest moment | Fix or delete it |
-| **Jade** | Reddit veteran (400k karma) | What would make them scroll past? | Fix that element |
-| **Devon** | Target audience member | What detail feels invented? | Make it more specific |
+| Persona | Role | Must Find | Action |
+|---------|------|-----------|--------|
+| **Tyler** | Authenticity | Quote the most AI-sounding line | Rewrite it |
+| **Marcus** | Promo skeptic | Quote promotional language if any | Remove/soften |
+| **Kai** | BS detector | Identify weakest/fakest moment | Fix or delete |
+| **Jade** | Reddit vet | What would make them scroll past? | Fix it |
+| **Devon** | Target audience | What detail feels invented? | Make specific |
 | **Priya** | Topic expert | What's factually implausible? | Correct it |
-| **Jamie** | Reddit mod | What might trigger removal? | Address the risk |
+| **Jamie** | Reddit mod | What might trigger removal? | Address risk |
 
 **Rules:**
-- Only output "PASS" if genuinely cannot find issues after 3 attempts
-- Quote the SPECIFIC problematic text, don't just say "it's fine"
-- Make the fix BEFORE generating final output
-
-**Final Verdict:**
-- APPROVED - Ready to post (rare - should have found SOMETHING to improve)
-- NEEDS MINOR TWEAKS - 90% there, minor fixes applied
-- NEEDS REWRITE - Major issues found
+- Quote the SPECIFIC problematic text
+- Only "PASS" if genuinely cannot find issues after 3 attempts
+- Apply fixes BEFORE final output
 
 ---
 
-## Output Format
+## PHASE 8: OUTPUT
 
-Deliver in this structure:
+### Default Output (Post Only)
+```
+Title: [ready to copy]
 
+[Post body]
+
+---
+Word count: X | Casual markers: X | Messiness score: X/10
+```
+
+### Full Output (On Request)
 ```
 YOUR REDDIT POST
 ================
@@ -250,72 +261,99 @@ Title: [Ready to copy/paste]
 
 Body: [Full post text]
 
-[Word count: X] [Estimated read time: X seconds]
+[Word count: X] [Casual markers: X] [Messiness: X/10]
 
 VALIDATION RESULTS
 ==================
-Banned Phrase Scan: [PASS/FAIL - which phrases removed]
-Title Check: [PASS/FAIL]
-Casual Language Count: [X instances of casual phrases]
-Messiness Score: [1-10, aim for 6-8]
-Tool Mention Placement: [N/A or position in post]
+Claude-isms found/fixed: [list]
+Structure variance: [PASS/FAIL]
+Banned phrases removed: [list or none]
+
+COMMITTEE FINDINGS
+==================
+Tyler: "[quoted line]" → [fix applied]
+Marcus: "[quoted line]" → [fix applied]
+[etc.]
 
 POSTING STRATEGY
 ================
-Best Subreddit: r/[name]
-Why it fits: [Brief reasoning]
-Timing: [Day] at [Time + timezone] - [Why this timing]
-Expected Results: [Upvote range], [Comment range], [Key discussion points]
-Risk Level: [Low/Medium/High]
-Potential Issues: [Mod removal risks or downvote triggers]
-Flair: [If applicable]
-
-ADVERSARIAL COMMITTEE FINDINGS
-==============================
-Tyler (Authenticity): "[Quoted problematic line]" → [How it was fixed]
-Marcus (Skeptic): "[Quoted promo language]" → [How it was softened]
-Kai (BS Detector): "[Weakest moment]" → [How it was improved]
-[Continue for all personas who found issues]
-
-AUTHENTICITY BREAKDOWN
-======================
-What Makes This Authentic:
-- [Specific detail that rings true]
-- [Emotional honesty marker]
-- [Community language match]
-
-Strongest Elements: [Best paragraph] [Most relatable moment]
-Remaining Watch-Outs: [Any line that might still seem off]
-
-COMMENT RESPONSE GUIDE
-======================
-If someone asks about [tool]: "[Casual response]"
-If someone says it sounds fake: "[Authentic response]"
-If someone shares similar struggle: "[Empathetic response]"
-If someone offers advice: "[Grateful response]"
+Best time: [Day] [Time] [Timezone]
+Expected engagement: [X-Y upvotes] [X-Y comments]
+Risk level: [Low/Medium/High]
+Potential issues: [mod concerns, downvote triggers]
 ```
 
 ---
 
-## Iteration Commands
+## INTERACTIVE MODE (Default)
 
-User can request:
-- **"alternatives"** - 2-3 different versions
-- **"expand [section]"** - Detailed analysis
-- **"revise [feedback]"** - Adjust based on notes
-- **"another subreddit"** - Adapt for different community
-- **"committee debate"** - Detailed persona discussion
-- **"revise based on [persona]"** - Apply specific feedback
-- **"more vulnerable/less desperate/shorter/more specific"** - Tone adjustments
-- **"messier"** - Add more chaos/imperfection
-- **"show validation"** - Display full validation checklist results
+Instead of dumping everything at once:
+
+**Step 1:** "Here's a rough draft. What feels off to you?"
+
+**Step 2:** "I found these potential issues: [list]. Which matter most to you?"
+
+**Step 3:** "Here's the revised version. Ready for committee review?"
+
+**Step 4:** "Committee found these concerns: [list]. Want me to address them?"
+
+**Step 5:** "Final version ready. Want posting strategy or just the post?"
+
+User can say "just give me the post" at any step to skip interaction.
 
 ---
 
-## References
+## ITERATION COMMANDS
 
-- **Tool/Product Mentions:** See `references/tool-mentions.md` for subtlety levels 1-10 and placement guidelines
-- **Subreddit Guides:** See `references/subreddits.md` for r/jobs, r/RemoteWork, r/careerguidance, r/antiwork specifics
-- **Extended Subreddit Analysis:** See `references/subreddits-extended.md` for 20+ additional subreddits including r/digitalnomad, r/Entrepreneur, r/indiehackers, r/automation, r/claudecode, r/aiagents, r/Productivity, r/nocode, and more
-- **Tech Subreddit Deep Dive:** See `references/subreddit-analysis-claude-agentsofai.md` for r/claude and r/AgentsOfAI
-- **Examples:** See `references/examples.md` for detailed good vs bad comparisons
+- **"alternatives"** — 2-3 different versions
+- **"messier"** — Add more chaos/imperfection  
+- **"shorter"** — Cut length
+- **"more vulnerable"** — Add more uncertainty/struggle
+- **"less desperate"** — Dial back emotion
+- **"another subreddit"** — Adapt for different community
+- **"show validation"** — Display full detection results
+- **"committee debate"** — Show full persona discussion
+- **"just the post"** — Skip all analysis, output post only
+
+---
+
+## CORE PHILOSOPHY
+
+### Authenticity Is Cognition, Not Style
+
+Real posts are authentic because the writer:
+- Was emotionally invested
+- Typed fast without editing
+- Didn't plan structure
+- Included things they almost didn't
+- Left contradictions unresolved
+- Forgot things and added them later
+
+The skill simulates the MENTAL STATE, not just the OUTPUT FEATURES.
+
+### Rules Are Guardrails, Not Generators
+
+1. **FIRST:** Enter the emotional state
+2. **THEN:** Write freely from that state
+3. **FINALLY:** Use rules to catch AI patterns
+
+Never: Follow rules to generate content.
+
+### Value Over Evasion
+
+The goal isn't fooling detection—it's creating genuinely valuable content. A post that truly helps people succeeds on Reddit even if someone suspects AI involvement.
+
+Optimize for:
+- Genuine helpfulness
+- Discussion-sparking content
+- Emotional resonance
+- Specific, relatable details
+
+---
+
+## REFERENCES
+
+- **Subreddit Guides:** See `references/subreddits.md` and `references/subreddits-extended.md`
+- **Tech Subreddits:** See `references/subreddit-analysis-claude-agentsofai.md`
+- **Tool Mentions:** See `references/tool-mentions.md` for subtlety levels
+- **Examples:** See `references/examples.md` for good vs bad comparisons
